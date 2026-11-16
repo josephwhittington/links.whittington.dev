@@ -13,6 +13,13 @@
         { "label": "Pexels", "url": "https://www.pexels.com/@_-whittington-982296/gallery/", "icon": "Camera" }
       ]
     },
+    "apps": {
+      "greeting": "Apps & Projects",
+      "tagline": "Things I've built",
+      "links": [
+        { "label": "mapNYC", "url": "https://apps.apple.com/us/app/mapnyc/id6834276307", "icon": "Smartphone" }
+      ]
+    },
     "resources": {
       "greeting": "Reproductive Health Resources",
       "tagline": "Resources for women in red states with pro-life policies",
@@ -27,6 +34,7 @@
   },
   "nav": [
     { "label": "Home", "page": "home" },
+    { "label": "Apps & Projects", "page": "apps" },
     { "label": "Reproductive Health Resources", "page": "resources" }
   ]
 }
