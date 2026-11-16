@@ -1,0 +1,32 @@
+{
+  "name": "Whittington",
+  "pages": {
+    "home": {
+      "greeting": "Hey I'm Whittington",
+      "tagline": "Keep up with me on my various platforms",
+      "links": [
+        { "label": "X", "url": "https://twitter.com/oldewhittington", "icon": "Twitter" },
+        { "label": "YouTube", "url": "https://www.youtube.com/@LearnWithWhittington", "icon": "Youtube" },
+        { "label": "Mail", "url": "mailto:whittington@whittington.dev", "icon": "Mail" },
+        { "label": "My Tech Blog", "url": "https://blog.whittington.dev", "icon": "FileText" },
+        { "label": "Art Instagram", "url": "https://www.instagram.com/oldewhittington/", "icon": "Instagram" },
+        { "label": "Pexels", "url": "https://www.pexels.com/@_-whittington-982296/gallery/", "icon": "Camera" }
+      ]
+    },
+    "resources": {
+      "greeting": "Reproductive Health Resources",
+      "tagline": "Resources for women in red states with pro-life policies",
+      "links": [
+        { "label": "List of Abortion Resources", "url": "https://abortion.cafe/", "icon": "Heart" },
+        { "label": "Abortion Finder", "url": "https://www.abortionfinder.org/", "icon": "Search" },
+        { "label": "Reproductive Health Legal Advice", "url": "https://www.reprolegalhelpline.org/", "icon": "Scale" },
+        { "label": "Abortion Funds by State", "url": "https://docs.google.com/document/d/1T-aDTsZXnKhMcrDmtcD35aWs00gw5piocDhaFy5LKDY/mobilebasic", "icon": "MapPin" },
+        { "label": "At-Home Abortion Pill Options", "url": "https://www.plancpills.org/", "icon": "Pill" }
+      ]
+    }
+  },
+  "nav": [
+    { "label": "Home", "page": "home" },
+    { "label": "Reproductive Health Resources", "page": "resources" }
+  ]
+}

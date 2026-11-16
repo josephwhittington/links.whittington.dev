@@ -1,0 +1,143 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.nav-btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.nav-btn:hover {
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+}
+
+.nav-btn.active {
+  background: #1a1a1a;
+  border-color: #1a1a1a;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  margin: 0 0 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+
+.link-card:hover {
+  border-color: #1a1a1a;
+  transform: translateY(-1px);
+}
+
+.link-card:active {
+  transform: translateY(0);
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.8125rem;
+  color: #999;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header h1 {
+    color: #fafafa;
+  }
+
+  .tagline {
+    color: #a0a0a0;
+  }
+
+  .nav-btn {
+    border-color: #333;
+    color: #a0a0a0;
+  }
+
+  .nav-btn:hover {
+    border-color: #666;
+    color: #fafafa;
+  }
+
+  .nav-btn.active {
+    background: #fafafa;
+    border-color: #fafafa;
+    color: #0a0a0a;
+  }
+
+  .link-card {
+    background: #1a1a1a;
+    border-color: #333;
+    color: #fafafa;
+  }
+
+  .link-card:hover {
+    border-color: #666;
+  }
+
+  .footer p {
+    color: #666;
+  }
+}
